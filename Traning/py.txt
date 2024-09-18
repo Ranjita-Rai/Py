@@ -1,0 +1,7 @@
+# Compiler####
+# private code
+# faster execution
+# fully optimized
+# No portability
+# extra
+
