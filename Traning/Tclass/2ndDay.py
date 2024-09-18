@@ -70,10 +70,10 @@
 # input le chai user bata input linxa (like js ma prompt vanya jasto)
 # While loop
 # if chalauna janena vani infinite loop ma janxa (100 speed)
-num = int(input("Enter a number: "))
-sum = 0
+# num = int(input("Enter a number: "))
+# sum = 0
 
-while num != 0:
-    sum += num
-    num = int(input("Enter a number: "))
-print('The sum is', sum)
+# while num != 0:
+#     sum += num
+#     num = int(input("Enter a number: "))
+# print('The sum is', sum)
