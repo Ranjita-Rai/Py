@@ -7,13 +7,11 @@ print(List)'''
 
 
 #using pop ()
-'''
 List.pop(1) #delete sanjita from list(sanjita at index1 )
 print(List)
 
 List.pop() #delete the last element from list
 print(List)
-'''
 
 
 #using del keyword to delete list (specific index as well as entire list)
