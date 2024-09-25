@@ -1,6 +1,6 @@
 List=[ "Ranjita", "Sanjita", "Kriti", "Samana"]
-#using copy()
 
+#using copy()
 newlist=List.copy()
 print(newlist)
 
