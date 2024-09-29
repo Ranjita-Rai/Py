@@ -1,4 +1,4 @@
-name={"Ranjita", "Sanjita","Ranjana","Anjana"}
+name={"Ranjita", "Sanjita","Ranjana","Anjana","Sanjana"}
 #using discard() method
 name.discard("Ranjana")
 print(name)
@@ -16,6 +16,13 @@ print(name)
 '''
 
 
+'''
  #using del keyword    #delete entire set
 del name 
+print(name)
+'''
+
+
+#using pop()
+name.pop()
 print(name)
