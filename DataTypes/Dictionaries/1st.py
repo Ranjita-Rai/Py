@@ -16,3 +16,13 @@ print(mydictionary["Gender"]) #print only gender value i.e Female
 print(type(mydictionary)) #check type
 
 print(len(mydictionary))  #check length
+
+
+#copy
+#using copy() method
+mydictionary2=mydictionary.copy()
+print(mydictionary2)
+
+#using dict() method
+mydictionary3=dict(mydictionary)
+print(mydictionary3)
