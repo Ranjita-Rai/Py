@@ -6,3 +6,4 @@ print(a(10,15))
 
 a=lambda a,b,c: a+b*c
 print(a(5,10,2))
+

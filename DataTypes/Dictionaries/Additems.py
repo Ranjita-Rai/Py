@@ -8,5 +8,5 @@ print(newDict)
 
 
 #using update() method to add items
-newDict.update({'weight':  1.5, 'taste': 'sweet'})
+newDict.update({'weight':  1.5, 'taste': 'sweet'})   
 print(newDict)
