@@ -36,3 +36,22 @@ class student:
       return f"{self.id} {self.name} {self.address} {self.age}"
 obj=student(1,"Sanjana","Ktm",20)
 print(obj)
+
+
+
+##Q.. 
+class bank_Acc:
+   def __init__(self, Acc_No, Balance):
+      self.Account_No=Acc_No
+      self.balance=Balance
+   
+   def debit(self, amount):
+      self.balance-=amount
+      print(f"Debit: ${amount}. Remaining balance is Rs.{self.balance}")
+    
+   def credit(self, amount):
+      self.balance+=amount
+      print(f"Credited: ${amount}. Remaining balance is Rs.{self.balance}")
+account_1= bank_Acc(1297352, 1500)
+account_1.debit(1000)
+account_1.credit(20000)
